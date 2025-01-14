@@ -2,8 +2,7 @@
 import React from "react";
 import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt, faUser, faClipboardList,
-     faShoppingCart,faSearch } from "@fortawesome/free-solid-svg-icons";
+import {   faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
