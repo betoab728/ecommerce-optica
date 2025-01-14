@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between p-4 mt-2 shadow-md bg-white">
       {/* Logo */}
-      <div className="logo">
+      <div className="logo m-1">
          <div className="flex items-center">
                   <Image 
                     src="/img/logo.png" 
@@ -43,7 +43,7 @@ const Header = () => {
                     width={36}
                     height={36}
                     />
-                    <span className="text-sm">Agenda tu cita</span>
+                    <span className="text-xs">Agenda tu cita</span>
             </button>
             <button className="flex flex-col items-center text-red-600">
                     <Image 
@@ -52,7 +52,7 @@ const Header = () => {
                     width={36}
                     height={36}
                     />
-                <span className="text-sm">Iniciar Sesión</span>
+                <span className="text-xs">Iniciar Sesión</span>
             </button>
             <button className="flex flex-col items-center text-red-600 ">
                     <Image 
@@ -62,7 +62,7 @@ const Header = () => {
                     height={36}
                     />
               
-                <span className="text-sm">Sigue tu compra</span>
+                <span className="text-xs">Sigue tu compra</span>
 
 
 
@@ -74,7 +74,7 @@ const Header = () => {
                     width={36}
                     height={36}
                     />
-                <span className="text-sm">Carrito</span>
+                <span className="text-xs">Carrito</span>
             </button>
         </div>
 
