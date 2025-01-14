@@ -40,8 +40,8 @@ const Header = () => {
                     <Image 
                     src="/img/calendar-red.png"
                     alt="Agendar cita"
-                    width={48}
-                    height={48}
+                    width={36}
+                    height={36}
                     />
                     <span className="text-sm">Agenda tu cita</span>
             </button>
@@ -49,8 +49,8 @@ const Header = () => {
                     <Image 
                     src="/img/user-red.png"
                     alt="Agendar cita"
-                    width={48}
-                    height={48}
+                    width={36}
+                    height={36}
                     />
                 <span className="text-sm">Iniciar Sesión</span>
             </button>
@@ -58,8 +58,8 @@ const Header = () => {
                     <Image 
                     src="/img/gps-red.png"
                     alt="Sigue tu compra"
-                    width={48}
-                    height={48}
+                    width={36}
+                    height={36}
                     />
               
                 <span className="text-sm">Sigue tu compra</span>
@@ -71,8 +71,8 @@ const Header = () => {
                     <Image 
                     src="/img/cart-red.png"
                     alt="Agendar cita"
-                    width={48}
-                    height={48}
+                    width={36}
+                    height={36}
                     />
                 <span className="text-sm">Carrito</span>
             </button>
