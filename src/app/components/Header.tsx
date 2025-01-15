@@ -72,6 +72,7 @@ const Header = () => {
             alt="Buscar"
             width={36}
             height={36}
+            className="w-6 h-6 sm:w-8 sm:h-8"
           />
           <span className="text-xs">Buscar</span>
         </button>
@@ -82,6 +83,7 @@ const Header = () => {
             alt="Carrito"
             width={36}
             height={36}
+            className="w-6 h-6 sm:w-8 sm:h-8"
           />
           <span className="text-xs">Carrito</span>
         </button>
