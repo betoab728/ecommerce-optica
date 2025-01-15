@@ -21,6 +21,7 @@ export default function Home() {
       <Header />
       <NavBar />
       <Slider images={sliderImages} />
+    
    
     </div>
   );
