@@ -65,6 +65,17 @@ const Header = () => {
           />
           <span className="text-xs">Sigue tu compra</span>
         </button>
+    
+        <button className="flex flex-col items-center text-red-600 lg:hidden md:hidden">
+          <Image
+            src="/img/search-red.png"
+            alt="Buscar"
+            width={36}
+            height={36}
+          />
+          <span className="text-xs">Buscar</span>
+        </button>
+
         <button className="flex flex-col items-center text-red-600">
           <Image
             src="/img/cart-red.png"

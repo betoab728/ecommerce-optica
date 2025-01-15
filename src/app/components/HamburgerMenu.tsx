@@ -74,6 +74,23 @@ const HamburgerMenu = () => {
             Contáctanos
           </a>
         </li>
+        
+        <li>
+          <a href="#iniciar-sesion" className="text-red-600 px-6 py-3 hover:text-red-500 block">
+            Iniciar Sesión
+          </a>
+        </li>
+        <li>
+          <a href="#agendar-cita" className="text-red-600 px-6 py-3 hover:text-red-500 block">
+            Agendar Cita
+          </a>
+        </li>
+       
+        <li>
+          <a href="#rastrea-compra" className="text-red-600 px-6 py-3 hover:text-red-500 block">
+            Rastrea tu compra
+          </a>
+        </li>
       </ul>
     </div>
   );
