@@ -69,24 +69,24 @@ const HamburgerMenu = () => {
             Promociones
           </a>
         </li>
-        <li>
+        <li className="border-b border-white">
           <a href="#contacto" className="text-red-600 px-6 py-3 hover:text-red-500 block">
             Contáctanos
           </a>
         </li>
         
-        <li>
+        <li className="border-b border-white">
           <a href="#iniciar-sesion" className="text-red-600 px-6 py-3 hover:text-red-500 block">
             Iniciar Sesión
           </a>
         </li>
-        <li>
+        <li className="border-b border-white">
           <a href="#agendar-cita" className="text-red-600 px-6 py-3 hover:text-red-500 block">
             Agendar Cita
           </a>
         </li>
        
-        <li>
+        <li className="border-b border-white">
           <a href="#rastrea-compra" className="text-red-600 px-6 py-3 hover:text-red-500 block">
             Rastrea tu compra
           </a>
