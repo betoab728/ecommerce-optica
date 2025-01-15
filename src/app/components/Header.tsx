@@ -2,12 +2,17 @@ import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Header = () => {
   return (
+
     <header className="flex items-center justify-between p-4 shadow-md bg-white">
+
+    {/*menu hamburguesa solo visible en tamaños menores a lg*/}
+    <HamburgerMenu />
       {/* Logo */}
-      <div className="logo">
+      <div className="px-2">
         <Image
           src="/img/logo.png"
           alt="Logo de la óptica"
